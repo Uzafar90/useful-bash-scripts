@@ -28,7 +28,7 @@ execute_command "sudo apt-get autoremove -y"
 execute_command "sudo apt-get clean"
 
 # Install additional packages
-execute_command "sudo apt install neofetch screenfetch btop htop nano wget curl -y"
+execute_command "sudo apt install screenfetch btop htop nano wget curl git -y"
 
 echo "Update complete!"
 exit 0
